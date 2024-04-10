@@ -1,0 +1,35 @@
+/* Navbar.css */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-title {
+    flex: 1;
+    font-size: 24px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-input {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  /* Optional: Adjust the styles as needed */
