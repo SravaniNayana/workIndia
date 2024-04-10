@@ -14,7 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route exact path="/homepage" element={<HomePage />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route path="/top-rated" element={<TopRatedPage />} />
           <Route path="/upcoming" element={<UpcomingPage />} />
           <Route path="/movie/:id" element={<SingleMovieDetailPage />} />
