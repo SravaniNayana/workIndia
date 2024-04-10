@@ -14,15 +14,15 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/top-rated" component={TopRatedPage} />
-          <Route path="/upcoming" component={UpcomingPage} />
-          <Route path="/movie/:id" component={SingleMovieDetailPage} />
-          <Route path="/search/:query" component={SearchedMoviePage} />
+          <Route exact path="/homepage" element={<HomePage />} />
+          <Route path="/top-rated" element={<TopRatedPage />} />
+          <Route path="/upcoming" element={<UpcomingPage />} />
+          <Route path="/movie/:id" element={<SingleMovieDetailPage />} />
+          <Route path="/search/:query" element={<SearchedMoviePage />} />
         </Routes>
       </div>
     </Router>
   );
 }
 
-export default App;
+export default App;

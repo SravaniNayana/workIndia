@@ -10,7 +10,7 @@ function Navbar() {
         Movies
       </div>
       <div className="navbar-links">
-        <Link to="/" className="navbar-link">Popular</Link>
+        <Link to="/homepage" className="navbar-link">Popular</Link>
         <Link to="/top-rated" className="navbar-link">Top Rated</Link>
         <Link to="/upcoming" className="navbar-link">Upcoming</Link>
       </div>
@@ -21,4 +21,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar;
